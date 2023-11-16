@@ -2,23 +2,23 @@
     const clothes = [
         {
             name: "Camisa Florida Branco/Preto",
-            price: 12.00,
+            price: 13.00,
         },
         {
             name: "Camiseta Super Mario",
-            price: 6.00,
+            price: 10.00,
         },
         {
             name: "Camisa Preta Estampa Tigre",
-            price: 11.00,
+            price: 13.00,
         },
         {
             name: "Camisa Preta Training",
-            price: 12.00,
+            price: 7.00,
         },
         {
             name: "Camiseta Stella Artois",
-            price: 12.00,
+            price: 13.00,
         },
         {
             name: "Camiseta Black Sabbath",
@@ -30,11 +30,11 @@
         },
         {
             name: "Camiseta Vermelha",
-            price: 12.00,
+            price: 27.00,
         },
         {
             name: "Camiseta Branca Gato",
-            price: 14.00,
+            price: 13.00,
         },
         {
             name: "Camiseta Itachi",
@@ -42,7 +42,7 @@
         },
         {
             name: "Blusa Cobra D'agua",
-            price: 22.00,
+            price: 30.00,
         },
     ];
 
@@ -82,12 +82,12 @@
     <section>
         {#each clothes as cl, index}
             <div class="cl">
-                <img src='../src/assets/clothes/{index + 1}-front.jpg' alt="" id="{index.toString()}" on:mouseenter={changeView}>
-                <img src='../src/assets/clothes/{index + 1}-back.jpg' class="hide" id="b-{index}" alt="" on:mouseleave={frontView}>
+                <img src='images/clothes/{index + 1}-front.jpg' alt="" id="{index.toString()}" on:mouseenter={changeView}>
+                <img src='images/clothes/{index + 1}-back.jpg' class="hide" id="b-{index}" alt="" on:mouseleave={frontView}>
                 <h1>{cl.name}</h1>
                 <div class="price">
                     <p>Por: R${cl.price},00</p>
-                    <a href="#footer">Comprar</a>
+                    <a href="https://Wa.me/+554488578720">Comprar</a>
                 </div>
             </div>
         {/each}
@@ -122,6 +122,7 @@
     }
 
     .cl img{
+        border: 3px solid rgb(185, 159, 119);
         align-self: center;
         width: 280px;
         height: auto;

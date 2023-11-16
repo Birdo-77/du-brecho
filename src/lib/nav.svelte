@@ -5,12 +5,7 @@
         <div class="home">
             <div class="logo"></div>
         </div>
-        <div class="search">
-            <span class="material-symbols-sharp search-icon">
-                search
-            </span>
-            <input type="text" name="" id="">
-        </div>
+        <h1>Du brecho</h1>
     <div class="account">
         <span class="material-symbols-sharp">
             account_circle
@@ -27,7 +22,8 @@
 
 <style>
     nav{
-        background-color: #e8e39e;
+        color: #b98c4c;
+        background-color: #000000;
         width: 100%;
         padding: 0 10px;
         display: flex;
@@ -38,7 +34,7 @@
     .logo{
         height: 60px;
         width: 60px;
-        background-image: url("../assets/logo.png");
+        background-image: url("logo.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -63,7 +59,7 @@
         margin-right: 7px;
     }
     input{
-        background-color: #e8e39e;
+        background-color: black;
         border: 0;
         outline: none;
         box-shadow: none;
@@ -72,7 +68,7 @@
         font-size: 1rem;
     }
     .search-icon{
-        color: #3c4400 !important;
+        color: white;
         padding: 0px 10px;
         text-align: center;
     }
