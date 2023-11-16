@@ -34,7 +34,7 @@
     .logo{
         height: 60px;
         width: 60px;
-        background-image: url("images/logo.png");
+        background-image: url("https://birdo-77.github.io/du-brecho//images/logo.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
