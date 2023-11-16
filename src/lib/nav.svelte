@@ -34,7 +34,7 @@
     .logo{
         height: 60px;
         width: 60px;
-        background-image: url("logo.png");
+        background-image: url("images/logo.png");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -44,32 +44,10 @@
         align-items: center;
         justify-content: center;
     }
-    .search{
-        border: 2px solid #3c4400;
-        height: 100%;
-        width: 40%;
-        display: flex;
-        padding: 2px 0px;
-        align-items: center;
-    }
     .account{
         margin-right: 5px;
     }
     .account span{
         margin-right: 7px;
-    }
-    input{
-        background-color: black;
-        border: 0;
-        outline: none;
-        box-shadow: none;
-        width: 60%;
-        flex: 1;
-        font-size: 1rem;
-    }
-    .search-icon{
-        color: white;
-        padding: 0px 10px;
-        text-align: center;
     }
 </style>
